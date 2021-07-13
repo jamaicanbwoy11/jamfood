@@ -20,43 +20,24 @@ import shepard_pie from './../assets/recipes/shepard-pie.webp';
 
 export const recipes = [
   {
-    title: 'PELAU',
+    title: 'JERK CHICKEN',
     ingredients: [
-      '3 lbs. chicken pieces, skinned',
+      '3 lbs. chicken pieces',
       '1 tsp. salt',
       '1/2 tsp. black pepper',
-      '2 tbsp. mixed green seasoning',
-      '2 tsp. minced garlic',
-      '1 tsp. Worcestershire sauce',
-      '1 tsp. soy sauce',
-      '1 tbsp. ketchup',
-      '2 tbsp. vegetable oil',
-      '2-3 tbsp. brown sugar',
-      '2 cups parboiled rice',
-      '1/2 cup chopped onion',
-      '1/2 cup chopped sweet or pimento peppers',
-      '1.5 cups cooked pigeon peas',
-      '1 tbsp. salt',
-      '1 whole hot pepper with the stem',
-      '2 cups coconut milk',
-      '2 cups chicken broth or water',
+      '2 tbsp. mixed green seasoning and Grace Jerk Seasoning',
+      
     ],
     directions: [
       ' Season chicken with salt, pepper, green seasoning, minced garlic, Worcestershire sauce, soy sauce and ketchup.',
-      'Heat oil in a large heavy iron pot or skillet.',
-      'Add sugar and allow to burn until brown.',
-      'Add seasoned chicken and stir until pieces are well coated with burnt sugar, brown for 5 minutes.',
-      'Add rice and turn often until well mixed. Cook for 3 minutes more.',
-      'Add onion, sweet peppers and peas and cook for a few minutes, stirring a few times.',
-      'Add salt, hot pepper, coconut milk and broth. Bring to the boil, lower heat, cover and simmer until nice is cooked and all liquid is evaporated (about 25-30 minutes.).',
-      'Add more liquid if rice is still hard and continue to cook for few more minutes.',
+      'Add seasoned chicken and stir until pieces are well coated with Grace Jerk Seasoning, brown for 5 minutes.',
     ],
     src: pelau,
-    notes: 'Pelau could also be baked in an oven. Cover pot with tin foil and bake at 350°F for 30-35 minutes. Chopped carrots could also be added to pelau.',
+    notes: 'Pelau could also be baked in an oven. Cover pot with tin foil and bake at 350°F for 30-35 minutes. Chopped coriander could also be added to chicken.',
     servingSize: 'Serves 8',
   },
   {
-    title: 'CURRIED GOAT',
+    title: 'CURRY GOAT',
     ingredients: [
       '2 Ibs. lean goat meat',
       '1 tsp. salt',
@@ -83,7 +64,7 @@ export const recipes = [
     servingSize: 'Serves 6',
   },
   {
-    title: 'CURRIED CHICKEN',
+    title: 'CURRY CHICKEN',
     ingredients: [
       'chicken (3 Tbs.)',
       '1 tsp. minced garlic',
@@ -111,7 +92,7 @@ export const recipes = [
     servingSize: 'Serves 6',
   },
   {
-    title: 'STEWED CHICKEN',
+    title: 'BROWN STEW CHICKEN',
     ingredients: [
       'chicken, cut in serving pieces (3.5 Ibs.)',
       '3 tbsp. minced green seasonings',
@@ -132,33 +113,28 @@ export const recipes = [
       'Serve hot with rice, salad or vegetables.',
     ],
     src: stew_chicken,
-    notes: 'Add 1 cup cooked pigeon peas or sliced carrots and sweet peppers after browning chicken.',
+    notes: 'Add 1 cup cooked carrots and scotch bonnent after browning chicken.',
     servingSize: 'Serves 8',
   },
   {
-    title: 'OVEN BARBECUED CHICKEN',
+    title: 'BEEF PATTIES',
     ingredients: [
-      '3.5 lbs. chicken, cut in pieces',
       '1 tsp. salt',
       '1/2 tsp. black pepper',
       '1 tsp. minced garlic',
       '2 tbsp. green seasoning',
-      '1 cup barbecue sauce ',
+      '2tbsp all purpose seasoning ',
+      'flour and tumeric',
     ],
     directions: [
-      'Season chicken with salt, black pepper, garlic and green seasoning.',
-      'Place skin side up in a greased baking dish and bake for 35-40 minutes at 325°F.',
-      'Remove from oven and drain.',
-      'Coat with barbecue sauce and return to Oven.',
-      'Bake for 15 minutes more to brown or place under grill.',
-      'Serve with potatoes, salad or rolls.',
+      'Season beef with salt, black pepper, garlic, all purpose seasoning and green seasoning.',
     ],
     src: bbq_chicken,
     notes: '',
     servingSize: 'Serves 8',
   },
   {
-    title: "SHEPHERD'S PIE",
+    title: "SHEPHERD'S PIE JAMAICAN STYLE",
     ingredients: [
       '2 lbs. potatoes',
       '1/3 cup hot milk',
